@@ -1,0 +1,31 @@
+body{
+    font: normal 14pt Comic;
+}
+
+#container{
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    background: rgb(218, 193, 173);
+    box-shadow: 2px 2px 8px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    font: 14pt Comic;
+    
+}
+
+button{
+    padding: 14px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 5px;
+}
+
+li{
+    font: 14pt Comic;
+    list-style: none;
+    padding: 5px
+}
