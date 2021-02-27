@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilo.css">
-    <title>Document</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,200;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilo.css" />
+    <title>Git Repository</title>
+  </head>
+  <body>
     <div id="container">
-        <input type="text" name="user" id="user" placeholder="user gitHub">
-        <button onclick="adicionar()">Adicionar</button>
-        <ul></ul>
+
+      <div id="content-input">
+        <img src="./logo.png" alt="logo" class="img-logo" />
+        <div id="input-content">
+          <input type="text" name="user" id="user" placeholder="user gitHub" />
+          <button onclick="adicionar()">Listar repositórios</button>
+        </div>
+      </div>
+
+        <div id="content-conteudo">
+            <div id="conteudo">
+                <p>Repositorios</p>
+                <ul></ul>
+            </div>
+          
+        </div>
+
+      </div>
     </div>
 
     <script src="http://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="/main.js"></script>
-</body>
+  </body>
 </html>
