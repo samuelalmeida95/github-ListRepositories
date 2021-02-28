@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,200;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./estilo.css" />
-    <title>Git Repository</title>
-  </head>
-  <body>
-    <div id="container">
 
-      <div id="content-input">
-        <img src="./logo.png" alt="logo" class="img-logo" />
-        <div id="input-content">
-          <input type="text" name="user" id="user" placeholder="user gitHub" />
-          <button id="btn-open" type="button" onClick="adicionar()">Listar repositórios</button>
-        </div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,200;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./estilo.css" />
+  <title>Git Repository</title>
+</head>
 
-        <div id="content-conteudo" >
-            <div id="conteudo">
-               <img class="img-logo2" src="./logo2.png" alt="#">
-                <ul></ul>
-            </div>
-          
-        </div>
+<body>
+  <div id="container">
 
-      </div>
+
+    <div id="input-content">
+      <img src="./logo.png" alt="logo" class="img-logo" />
+      <input type="text" name="user" id="user" placeholder="user gitHub" />
+      <button id="btn-open" type="button" onClick="adicionar()">Listar repositórios</button>
     </div>
 
-    <script src="http://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="/main.js"></script>
-  </body>
+
+    <div id="content-conteudo">
+      <div id="conteudo">
+        <img class="img-logo2" src="./logo2.png" alt="#">
+        <ul></ul>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+
+  <script src="http://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="/main.js"></script>
+</body>
+
 </html>
